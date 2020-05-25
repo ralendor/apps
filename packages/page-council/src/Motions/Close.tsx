@@ -11,6 +11,7 @@ import { useAccounts, useApi, useToggle } from '@polkadot/react-hooks';
 import { useTranslation } from '../translate';
 
 interface Props {
+  hasFailed: boolean;
   hash: Hash;
   idNumber: ProposalIndex;
   isDisabled: boolean;
